@@ -6,12 +6,12 @@ public class AreaCalculation {
         return area;
 
     }
-    public static double area (int radius) {
+    public static double area (double radius) {
         double area = Math.PI * Math.abs(radius);
         return area;
     }
 
-    public static int area (int height, int width) {
+    public static double area (double height, double width) {
         return height * width;
     }
 
